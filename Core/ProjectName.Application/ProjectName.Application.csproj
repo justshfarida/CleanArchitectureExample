@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectName.Domain\ProjectName.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\IRepositories\" />
+    <Folder Include="Interfaces\IServices\" />
+    <Folder Include="Interfaces\IUnitOfWorks\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Models\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Automappers\" />
+    <Folder Include="Validations\" />
+  </ItemGroup>
+
+</Project>
